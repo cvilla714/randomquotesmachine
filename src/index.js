@@ -1,3 +1,4 @@
+import { Tooltip, Toast, Popover } from "bootstrap";
 import "./style.css";
 
 const QuoteBank = [
