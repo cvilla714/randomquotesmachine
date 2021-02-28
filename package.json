@@ -1,0 +1,23 @@
+{
+  "name": "quote",
+  "version": "1.0.0",
+  "description": "creating a random quote machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvilla714/randomquotesmachine.git"
+  },
+  "author": "Cosmel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvilla714/randomquotesmachine/issues"
+  },
+  "homepage": "https://github.com/cvilla714/randomquotesmachine#readme",
+  "devDependencies": {
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
