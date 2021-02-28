@@ -41,11 +41,6 @@ function generateQuote() {
   // adding the author
   twitterLink += " - " + authorInApiFormat;
 
-  //  "https://twitter.com/intent/tweet?hashtags=quotes&amp;related=freecodecamp&amp;text=%22If%20you%20can%20dream%20it%2C%20you%20can%20achieve%20it.%22%20Zig%20Ziglar"
-  // <i class="fa fa-twitter"></i>
-
-  ("https://twitter.com/intent/tweet?hashtags=quotes&amp;related=freecodecamp&amp;text=%22Nothing%20is%20impossible%2C%20the%20word%20itself%20says%2C%20%E2%80%9CI%E2%80%99m%20possible!%E2%80%9D%22%20%E2%80%93Audrey%20Hepburn");
-
   console.log(randomIndexQuote);
   document.querySelector("#tweet-quote").href = twitterLink;
   document.querySelector("#text").innerText = QuoteBank[randomIndexQuote].quote;
