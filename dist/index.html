@@ -5,14 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/e252d07dd4.js" crossorigin="anonymous"></script>
     <title>Random Quote Machine</title>
 </head>
-<body>
-    <div id="quote-box">
-        <div id="text"></div>
-            <div id="author"></div>
-            <button id="new-quote">New Quote</button>
-            <a href="#" id="tweet-quote" target="_blank">Tweet Quote</a>
+<body >
+    <div class="container d-flex justify-content-center align-items-center">
+    <div class="card">
+        <div class="card-header">
+          Something to think about
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <div id="quote-box">
+                <div id="text"></div>
+                    <!-- <div id="author"></div> -->           
+            <footer class="blockquote-footer"><cite title="Source Title">
+                <div id="author"></div>
+            </cite></footer>
+            <div class="links d-flex justify-content-start align-items-center">
+            <button class="btn btn-success"id="new-quote">New Quote</button>
+            <a href="#" id="tweet-quote" target="_blank">
+                <i class="fab fa-twitter fa-2x mx-3"></i>
+                
+            </a>
+        </div>
+            </div>
+          </blockquote>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
