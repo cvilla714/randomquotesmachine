@@ -1,7 +1,7 @@
 # Project: Random Quote Machine
 
-> Project was about creating a random quote machine
-> and have the ability to tweet it with one click
+> The project was about creating a random quote machine
+> and have the ability to tweet it with one click.
 
 ![screenshot](./app_screenshot.png)
 
